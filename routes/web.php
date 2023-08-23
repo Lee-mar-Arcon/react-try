@@ -15,5 +15,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return Inertia::render('Test'); // This will get component Test.jsx from the resources/js/Pages/Test.jsx
+    return Inertia::render('Layout/MainLayout');
 });
